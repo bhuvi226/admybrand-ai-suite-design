@@ -1,8 +1,11 @@
 import { useEffect } from "react";
 import Hero from "@/components/Hero";
 import Features from "@/components/Features";
+import DemoVideo from "@/components/DemoVideo";
 import Pricing from "@/components/Pricing";
+import PricingCalculator from "@/components/PricingCalculator";
 import Testimonials from "@/components/Testimonials";
+import BlogResources from "@/components/BlogResources";
 import FAQ from "@/components/FAQ";
 import Footer from "@/components/Footer";
 import { useScrollAnimation } from "@/hooks/useScrollAnimation";
@@ -14,8 +17,11 @@ const Index = () => {
     <div className="min-h-screen bg-background overflow-x-hidden">
       <Hero />
       <Features />
+      <DemoVideo />
       <Pricing />
+      <PricingCalculator />
       <Testimonials />
+      <BlogResources />
       <FAQ />
       <Footer />
     </div>
