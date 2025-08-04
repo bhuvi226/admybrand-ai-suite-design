@@ -1,73 +1,101 @@
-# Welcome to your Lovable project
+# 🌟 ADmyBRAND AI Suite — Landing Page
 
-## Project info
+A modern, responsive, AI-powered marketing landing page for **ADmyBRAND AI Suite** — built with **Next.js 14+**, **Tailwind CSS**, and **App Router**.
 
-**URL**: https://lovable.dev/projects/561ea75f-9f15-4ceb-83bf-3db7a90266ba
+> 🚀 Live Demo: [https://admybrand-ai-suite-design.vercel.app/](https://admybrand-ai-suite-design.vercel.app/) 
 
-## How can I edit this code?
+---
 
-There are several ways of editing your application.
+## ✨ Features
 
-**Use Lovable**
+- ✅ **Hero Section** — Compelling headline, CTA, and hero visual
+- ✅ **Features Grid** — 6+ benefits of the product with icons
+- ✅ **Pricing Tiers** — 3 plans with feature comparisons
+- ✅ **Testimonials Carousel** — Real user feedback
+- ✅ **FAQ Accordion** — Expandable questions
+- ✅ **Footer** — Social links, contact, newsletter
+- ✅ **Glassmorphism Design** — 2025 trend-ready
+- ✅ **Smooth Animations** — On-scroll and hover effects
+- ✅ **Mobile-First** — Fully responsive on all devices
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/561ea75f-9f15-4ceb-83bf-3db7a90266ba) and start prompting.
+---
 
-Changes made via Lovable will be committed automatically to this repo.
+## 🛠 Tech Stack
 
-**Use your preferred IDE**
+| Tech         | Description                          |
+|--------------|--------------------------------------|
+| **Next.js 14** | App Router, File-based routing     |
+| **TypeScript** | Type-safe, scalable codebase       |
+| **Tailwind CSS** | Utility-first styling framework  |
+| **Framer Motion** | Smooth animations and transitions |
+| **Vercel**      | Production deployment platform    |
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+---
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## 🧩 Folder Structure
+admybrand-ai-suite-design/
+├── app/ # Next.js App Router pages
+│ └── page.tsx # Main landing page
+├── components/ # Reusable UI components
+│ ├── Hero.tsx
+│ ├── Features.tsx
+│ ├── Pricing.tsx
+│ ├── Testimonials.tsx
+│ ├── FAQ.tsx
+│ └── Footer.tsx
+├── public/ # Static assets
+├── styles/
+│ └── globals.css # Tailwind base styles
+├── tailwind.config.ts
+├── tsconfig.json
+└── README.md
 
-Follow these steps:
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+---
 
-# Step 3: Install the necessary dependencies.
-npm i
+## 🚀 Getting Started Locally
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+```bash
+git clone https://github.com/bhuvi226/admybrand-ai-suite-design.git
+cd admybrand-ai-suite-design
+npm install
 npm run dev
-```
+🔗 Deploying to Vercel
+1.Go to https://vercel.com
 
-**Edit a file directly in GitHub**
+2.Click “Add New Project”
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+3.Import this GitHub repo
 
-**Use GitHub Codespaces**
+4.Deploy using default Next.js settings
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+📦 _**Reusable Components**_
+Button.tsx
 
-## What technologies are used for this project?
+Card.tsx
 
-This project is built with:
+Modal.tsx
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+PricingCard.tsx
 
-## How can I deploy this project?
+TestimonialCard.tsx
 
-Simply open [Lovable](https://lovable.dev/projects/561ea75f-9f15-4ceb-83bf-3db7a90266ba) and click on Share -> Publish.
+Accordion.tsx
 
-## Can I connect a custom domain to my Lovable project?
+NavBar.tsx
 
-Yes, you can!
+InputField.tsx
+| Desktop Version                        |                         
+| -------------------------------------- | 
+ <img width="2940" height="1912" alt="image" src="https://github.com/user-attachments/assets/7f133ea9-3e76-47d2-809a-5749e7a78488" />
+<img width="2940" height="1912" alt="image" src="https://github.com/user-attachments/assets/142a82f3-a6a8-4312-8f41-bfcd20dec5a9" />
+<img width="2940" height="1912" alt="image" src="https://github.com/user-attachments/assets/4ade892b-966c-4e26-95f5-2a454edbe740" />
+<img width="2940" height="1912" alt="image" src="https://github.com/user-attachments/assets/c739ac73-7e32-4e83-be4e-517b18571fca" />
+📄 License
+MIT — feel free to use, modify, or contribute!
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+👨‍💻 Author
+Sugali Bhuvan Sai
+📧 bhuvansai789@gmail.com
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
