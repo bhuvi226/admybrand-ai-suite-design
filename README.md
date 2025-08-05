@@ -1,6 +1,6 @@
 # 🌟 ADmyBRAND AI Suite — Landing Page
 
-A modern, responsive, AI-powered marketing landing page for **ADmyBRAND AI Suite** — built with **Next.js 14+**, **Tailwind CSS**, and **App Router**.
+A modern, responsive, AI-powered marketing landing page for **ADmyBRAND AI Suite** — built with **React+**, **Tailwind CSS**, and **App Router**.
 
 > 🚀 Live Demo: [https://admybrand-ai-suite-design.vercel.app/](https://admybrand-ai-suite-design.vercel.app/) 
 
@@ -24,7 +24,7 @@ A modern, responsive, AI-powered marketing landing page for **ADmyBRAND AI Suite
 
 | Tech         | Description                          |
 |--------------|--------------------------------------|
-| **Next.js 14** | App Router, File-based routing     |
+| **React** | App Router, File-based routing     |
 | **TypeScript** | Type-safe, scalable codebase       |
 | **Tailwind CSS** | Utility-first styling framework  |
 | **Framer Motion** | Smooth animations and transitions |
