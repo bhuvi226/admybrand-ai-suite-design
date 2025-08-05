@@ -3,6 +3,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Play, Pause, Volume2, Maximize, Calendar, MessageSquare, BarChart3 } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const DemoVideo = () => {
   const [activeDemo, setActiveDemo] = useState(0);
@@ -203,12 +204,16 @@ const DemoVideo = () => {
                   Ready to Transform Your Marketing?
                 </h3>
                 <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                  <Button size="lg" className="shadow-lg">
-                    Start Free Trial
-                  </Button>
-                  <Button variant="outline" size="lg">
-                    Schedule Demo Call
-                  </Button>
+                  <Link to="/contact">
+                    <Button size="lg" className="shadow-lg">
+                      Start Free Trial
+                    </Button>
+                  </Link>
+                  <Link to="/contact">
+                    <Button variant="outline" size="lg">
+                      Schedule Demo Call
+                    </Button>
+                  </Link>
                 </div>
               </motion.div>
             </motion.div>
